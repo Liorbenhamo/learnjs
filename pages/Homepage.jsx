@@ -31,12 +31,12 @@ function Homepage() {
       <br />
       <h2>shared thoughts:</h2>
       <br />
-      <div className="thoughtshomepage">
+      {/* <div className="thoughtshomepage">
         <Thoughts />
         <Thoughts />
         <Thoughts />
         <Thoughts />
-      </div>
+      </div> */}
     </div>
   );
 }
