@@ -6,7 +6,9 @@ function ExerciseProvider({ children }) {
   useEffect(() => {
     const test = async () => {
       try {
-        const res = await fetch("http://localhost:3000/exercise/take");
+        const res = await fetch(
+          "https://exercises-jsapi.onrender.com/exercise/take"
+        );
         const data = await res.json();
         setExercises(data);
         console.log(data);

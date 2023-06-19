@@ -58,7 +58,7 @@ function Exercise() {
           <br />
           <p>
             notice output is a string sometimes you will need to return array
-            like this `${"array"}`
+            like this $&#123;"array"&#125;
           </p>
         </div>
       </div>
