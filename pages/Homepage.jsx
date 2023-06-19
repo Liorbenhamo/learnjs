@@ -1,7 +1,7 @@
 import React from "react";
 import "./homepage.css";
 import Userstypes from "../component/Userstypes";
-import Thoughts from "../component/thoughts";
+// import Thoughts from "../component/Thoughts";
 
 function Homepage() {
   return (
@@ -31,12 +31,12 @@ function Homepage() {
       <br />
       <h2>shared thoughts:</h2>
       <br />
-      <div className="thoughtshomepage">
+      {/* <div className="thoughtshomepage">
         <Thoughts />
         <Thoughts />
         <Thoughts />
         <Thoughts />
-      </div>
+      </div> */}
     </div>
   );
 }
