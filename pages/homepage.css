@@ -1,0 +1,15 @@
+.userstypesflex {
+  display: flex;
+  justify-content: space-around;
+}
+.flexpayment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thoughtshomepage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
