@@ -1,7 +1,7 @@
 import React from "react";
 import "./homepage.css";
 import Userstypes from "../component/Userstypes";
-import Thoughts from "../component/thoughts";
+// import Thoughts from "../component/Thoughts";
 
 function Homepage() {
   return (
