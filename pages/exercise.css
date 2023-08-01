@@ -9,7 +9,7 @@
 }
 .questionexercise {
   height: 50vh;
-  width: 35vw;
+  width: 30vw;
 }
 .exerciseflex {
   width: 100vw;
@@ -37,6 +37,7 @@
   line-height: 1;
 }
 .textcardexercise {
+  width: 100vw;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -113,3 +114,8 @@ p {
   background-color: whitesmoke;
   color: black;
 }
+.infosearch{
+  display: flex;
+  justify-content: center;
+}
+

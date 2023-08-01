@@ -3,6 +3,7 @@ import Editor from "@monaco-editor/react";
 import "./exercise.css";
 import { useLocation } from "react-router";
 import { useEffect } from "react";
+import Infosearch from "../component/Infosearch";
 
 function Exercise() {
   const location = useLocation();
@@ -100,7 +101,11 @@ function Exercise() {
             </div>
           </div>
         ))}
+        
       </div>
+      <div className="infosearch">
+          <Infosearch/>
+        </div>
     </div>
   );
 }
